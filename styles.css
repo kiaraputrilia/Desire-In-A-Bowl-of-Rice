@@ -469,7 +469,7 @@ html {
     display:none;
     }
     #main-title{
-        font-size: 55px;
+        font-size: 45px;
         width: 60vw;
         line-height: 1.5;
         margin-top: -10vh;
@@ -481,8 +481,8 @@ html {
     }
 
     #notif{
-        margin-top: 40vh;
-        margin-left: 10vw;
+        margin-top: 35vh;
+        margin-left: 9vw;
     }
        
 }
