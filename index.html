@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desire in a Bowl of Rice</title>
+  <link rel="stylesheet" href="https://use.typekit.net/whu5mgh.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <body onload="on()" onclick="off()">
+
+
+  <!-- Overlay effect
+  <div id="overlay">
+    <div id="text">A conditional designed luncheon wherein chosen participants were only able to put select portions of specific Dutch food on their plate if they were able to answer prompted questions. These questions centered around wealth, class, privilege and histories.</div>
+</div> -->
+
+  <main>
+   
+    <video id="video" controls>
+      <source src="https://desireinabowlofrice.s3.us-east-2.amazonaws.com/video.MOV" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+
+      
+      <div class="timestamp first" id="one"onclick="seekTo(0)"> ���</div>
+      <div class="timestamp first"id="two"onclick="seekTo(5)">00:05</div>
+      <div class="timestamp first"id="three"onclick="seekTo(25)">00:25</div>
+      <div class="timestamp first circle" id="four"onclick="seekTo(68)">01:08</div>
+      <div class="timestamp first circle"id="five"onclick="seekTo(131)">02:11</div>
+      <div class="timestamp first circle"id="six"onclick="seekTo(210)">03:30</div>
+      <div class="timestamp first circle"id="seven"onclick="seekTo(215)">03:35</div>
+      <div class="timestamp first"id="eight"onclick="seekTo(227)">03:47</div>
+      <div class="timestamp first circle"id="nine"onclick="seekTo(285)">04:45</div>
+      <div class="timestamp first"id="ten"onclick="seekTo(321)">05:21</div>
+      <div class="timestamp first"id="eleven"onclick="seekTo(349)">05:49</div>
+      <div class="timestamp first"id="twelve"onclick="seekTo(379)">06:19</div>
+      <div class="timestamp first"id="thirteen"onclick="seekTo(406)">06:46</div>
+      <div class="timestamp first circle"id="fourteen"onclick="seekTo(433)">07:13</div>
+      <div class="timestamp first"id="fifteen"onclick="seekTo(438)">07:18</div>
+      <div class="timestamp first"id="sixteen"onclick="seekTo(443)">07:23</div>
+      <div class="timestamp first"id="seventeen"onclick="seekTo(450)">07:30</div>
+      <div class="timestamp first"id="eighteen"onclick="seekTo(457)">07:37</div>
+      <div class="timestamp first"id="nineteen"onclick="seekTo(464)">07:44</div>
+      <div class="timestamp first circle"id="twenty"onclick="seekTo(555)">09:15</div>
+      <div class="timestamp first"id="twentyone"onclick="seekTo(560)">09:20</div>
+      <div class="timestamp first"id="twentytwo"onclick="seekTo(570)">09:30</div>
+      <div class="timestamp first"id="twentythree"onclick="seekTo(572)">09:32</div>
+      <div class="timestamp first circle"id="twentyfour"onclick="seekTo(576)">09:36</div>
+      <div class="timestamp first"id="twentyfive"onclick="seekTo(613)">10:13</div>
+      <div class="timestamp first"id="twentysix"onclick="seekTo(630)">10:30</div>
+      <div class="timestamp first" id="twentyseven"onclick="seekTo(691)">11:31</div>
+      <div class="timestamp first" id="twentyeight"onclick="seekTo(725)">12:05</div>
+      <div class="timestamp first" id="twentynine"onclick="seekTo(730)">12:10</div>
+      <div class="timestamp first" id="thirty"onclick="seekTo(737)">12:17</div>
+      <div class="timestamp first" id="thirtyone"onclick="seekTo(744)">12:24</div>
+      <div class="timestamp first" id="thirtytwo"onclick="seekTo(771)">12:51</div>
+      <div class="timestamp first circle" id="thirtythree"onclick="seekTo(842)">14:02</div>
+      <div class="timestamp first" id="thirtyfour"onclick="seekTo(849)">14:09</div>
+      <div class="timestamp first" id="thirtyfive"onclick="seekTo(871)">14:31</div>
+      <div class="timestamp first circle" id="thirtysix"onclick="seekTo(889)">14:49</div>
+      <div class="timestamp first" id="thirtyseven"onclick="seekTo(910)">15:10</div>
+      <div class="timestamp first circle" id="thirtyeight"onclick="seekTo(970)">16:10</div>
+      <div class="timestamp first" id="thirtynine"onclick="seekTo(986)">16:26</div>
+      <div class="timestamp first first circle" id="forty"onclick="seekTo(1089)">18:09</div>
+      <div class="timestamp first" id="fortyone"onclick="seekTo(1097)">18:17</div>
+      <div class="timestamp first" id="fortytwo"onclick="seekTo(1115)">18:35</div>
+      <div class="timestamp first" id="fortythree"onclick="seekTo(1126)">18:46</div>
+      <div class="timestamp first circle" id="fortyfour"onclick="seekTo(1160)">19:20</div>
+      <div class="timestamp first" id="fortyfive"onclick="seekTo(1179)">19:39</div>
+      <div class="timestamp first" id="fortysix"onclick="seekTo(1185)">19:45</div>
+      <div class="timestamp first circle" id="fortyseven"onclick="seekTo(1338)">22:18</div>
+      <div class="timestamp first" id="fortyeight"onclick="seekTo(1342)">22:22</div>
+      <div class="timestamp first circle" id="fortynine"onclick="seekTo(1350)">22:30</div>
+      <div class="timestamp first" id="fifty"onclick="seekTo(1355)">22:35</div>
+      <div class="timestamp first" id="fiftyone"onclick="seekTo(1371)">22:51</div>
+      <div class="timestamp first circle" id="fiftytwo"onclick="seekTo(1399)">23:19</div>
+      <div class="timestamp first" id="fiftythree"onclick="seekTo(1410)">23:30</div>
+      <div class="timestamp first circle" id="fiftyfour"onclick="seekTo(1444)">24:04</div>
+      <div class="timestamp first" id="fiftyfive"onclick="seekTo(1451)">24:11</div>
+      <div class="timestamp first circle" id="fiftysix"onclick="seekTo(1508)">25:08</div>
+      <div class="timestamp first" id="fiftyseven"onclick="seekTo(1511)">25:11</div>
+      <div class="timestamp first" id="fiftyeight"onclick="seekTo(1543)">25:43</div>      
+      <div class="timestamp first circle" id="fiftynine"onclick="seekTo(1575)">26:15</div>     
+      <div class="timestamp first" id="sixty"onclick="seekTo(1582)">26:22</div>     
+      <div class="timestamp first" id="sixtyone"onclick="seekTo(1625)">27:05</div>     
+      <div class="timestamp first circle" id="sixtytwo"onclick="seekTo(1652)">27:32</div>     
+      <div class="timestamp first" id="sixtythree"onclick="seekTo(1691)">28:11</div>     
+      <div class="timestamp first circle" id="sixtyfour"onclick="seekTo(1760)">29:20</div>     
+      <div class="timestamp first" id="sixtyfive"onclick="seekTo(1792)">29:52</div>     
+      <div class="timestamp first" id="sixtysix"onclick="seekTo(1803)">30:03</div>     
+      <div class="timestamp first circle" id="sixtyseven"onclick="seekTo(1873)">31:13</div> 
+      <div class="timestamp first" id="sixtyeight"onclick="seekTo(1892)">31:32</div>
+      <div class="timestamp first circle" id="sixtynine"onclick="seekTo(1971)">32:51</div>
+      <div class="timestamp first" id="seventy"onclick="seekTo(1990)">33:10</div>
+      <div class="timestamp first circle" id="seventyone"onclick="seekTo(2024)">33:44</div>
+      <div class="timestamp first" id="seventytwo"onclick="seekTo(2042)">34:02</div>
+      <div class="timestamp first circle" id="seventythree"onclick="seekTo(2047)">34:07</div>
+      <div class="timestamp first" id="seventyfour"onclick="seekTo(2077)">34:37</div>
+      <div class="timestamp first circle" id="seventyfive"onclick="seekTo(2118)">35:18</div>
+      <div class="timestamp first" id="seventysix"onclick="seekTo(2135)">35:35</div>
+      <div class="timestamp first" id="seventyseven"onclick="seekTo(2166)">36:06</div>
+      <div class="timestamp first" id="seventyeight"onclick="seekTo(2186)">36:26</div>
+      <div class="timestamp first" id="seventynine"onclick="seekTo(2204)">36:44</div>
+      <div class="timestamp first" id="eighty"onclick="seekTo(2217)">36:57</div>
+      <div class="timestamp first" id="eightyone"onclick="seekTo(2237)">37:17</div>
+      <div class="timestamp first" id="eightytwo"onclick="seekTo(2262)">37:42</div>
+      <div class="timestamp first" id="eightythree"onclick="seekTo(2273)">37:53</div>
+      <div class="timestamp first" id="eightyfour"onclick="seekTo(2276)">37:56</div>
+      <div class="timestamp first" id="eightyfive"onclick="seekTo(2305)">38:25</div>
+      <div class="timestamp first" id="eightysix"onclick="seekTo(2324)">38:44</div>
+      <!-- <ul class="timestamp firsts">
+         Add the 'circle' class to timestamps you want to have a circle -->
+        <!-- <li class="circle" onclick="seekTo(0)">0:00</li>
+        <li onclick="seekTo(5)">0:05</li> -->
+        <!-- Add more timestamps here -->
+      <!-- </ul> -->
+
+    <div id="timestampText"></div>
+
+  </main>
+  <h1 id="main-title">Desire In A Bowl Of Rice</h1>
+  <div id="notif">
+    <p id="notiftext">Optimized for desktop view only!</p>
+
+  </div>
+
+  <script src="index.js"></script>
+  <script>
+    const videoPlayer = document.getElementById('video');
+    const timestampText = document.getElementById('timestampText');
+
+    function seekTo(seconds) {
+      videoPlayer.currentTime = seconds;
+      showTimestampText(seconds);
+    }
+
+    function showTimestampText(seconds) {
+      timestampText.innerHTML = '';
+
+      let text = '';
+
+      switch(seconds) {
+        case 0:
+          text = "A <i>conditional</i> designed luncheon wherein chosen participants were only able to put select portions of specific Dutch food on their plate if they were able to answer prompted questions. These questions centered around wealth, class, privilege and histories.";
+          break;
+        case 5:
+          text = "From left to right: ① My grandpa whom I call Yangkung, ② My grandma whom I call Yangti Kecil, ③ Myself as the host, ④ My grandma whom I call Yangti Gede, ⑤ Mba Wati, the most hard-working lady who cooks with tremendous love, ⑥ Pak Amir, our family's chaffeur";
+          break;
+        case 25:
+          text = "I thanked Mba Wati as she is also one of the key figures in my life who inspired my thesis";
+          break;
+        case 68:
+          text = "① Dari manakah asal muasal makanan ini? Belanda? Amerika? Perancis? ⏐ Where does this food come from? Dutch? America? France?";
+          break;
+        case 131:
+          text = "② Diantara makanan ini hidangan mana yang memakai daging sebagai bahan utamanya: Hollandsche Biefstuk? Kip Compote? ⏐ Which of these dishes uses meat as the main ingredient? Hollandsche Biefstuk? Kip Compote?";
+          break;
+        case 210:
+          text = "③ Ada yang tau bitterballen yang mana? ⏐ Do you know which one is a bitterballen?";
+          break;
+        case 215:
+          text = "④ Siapa yang pernah coba bitterballen? ⏐ Who has tried a bitterbalen?";
+          break;
+        case 227:
+          text = "Pak Amir told us that he's never tried a bitterballen, which is why he was able to receive one on his plate.";
+          break;
+        case 285:
+          text = "⑤ Selain bitterballen, bisakah Anda menyebutkan tiga masakan lain yang dipengaruhi oleh Belanda? ⏐ Apart from bitterballen, can you name three other dishes that are influenced by the Dutch?";
+          break;
+        case 321:
+          text = "I hinted that kaastengel was one of the dishes. It's also interesting that I mentioned that these dishes are associated during the month of Ramadan.";
+          break;
+        case 349:
+          text = "Mba Wati was the only one who got it correct! Nastar is a pineapple filled shortbread style cookies. It encompasses influences from the Netherlands and China.";
+          break;
+        case 379:
+          text = "I think it's quite interesting that food becomes an object/a subject of assimilation. It becomes culturally ambiguous.";
+          break;
+        case 406:
+          text = "Yangkung and Mba Wati were able to receive one poffertjes as they were able to answer my question.";
+          break;
+        case 433:
+          text = "⑥ Apakah kalian terbiasa untuk memakan masakan seperti ini? ⏐ Are you used to eating this kind of food?";
+          break;
+        case 438:
+          text = "Yangkung and Yangti Kecil were both so quick to say that they're used to eating this 'type' of (Western) cuisine.";
+          break;
+        case 443:
+          text = "Since Yangti Gede, Mba Wati, and Pak Amir didn't say anything, I instructed them to share a portion of fish.";
+          break;
+        case 450:
+          text = "I think Yangkung tried to digest my instructions out loud by re-emphasizing the reason why they were receiving specific portions of fish. But by doing so, it might've been interpreted as a condescending comment.";
+          break;
+        case 457:
+          text = "I mentioned what Yangkung did because it's interesting how after he made that comment directed towards the three of them, Yangti Gede immediately said that she was used to eating this kind of food (which I know to be a bit false, I know she doesn't enjoy many other types of cuisine). I think she wanted to be seperated from Mba Wati and Pak Amir.";
+          break;
+        case 464:
+          text = "Mba Wati and Pak Amir received a portion of fish.";
+          break;
+        case 555:
+          text = "⑦ Yang suka masak disini siapa? ⏐ Who here likes to cook?";
+          break;
+        case 560:
+          text = "I love how Yangti Kecil immediately answered, 'Mba Wati'. But, I also wonder if she actually truly likes to cook, or if this has just been the designated role she's expected to embody.";
+          break;
+        case 570:
+          text = "For her hardwork and clear laborious dedication, she 'won' two portions of potatoes.";
+          break;
+        case 572:
+          text = "I think it was during Yangkung's commentary here that I think, deep down, I wanted this luncheon to finish off with the result of Mba Wati and Pak Amir 'winning'.";
+          break;
+        case 576:
+          text = "⑧ Kira - kira ada yang tahu berapa lama untuk membuat masakan ini? ⏐ Do you know how long it roughly takes to cook these dishes?";
+          break;
+        case 613:
+          text = "I actually did not find out how long it takes to cook the biefsteuk, but I just wanted to foster a sort of conversation and see if somehow the women in this dinner would know more than the men did (I was thinking of ingrained societal roles). So I asked each participant to get their share of biefsteuk.";
+          break;
+        case 630:
+          text = "Mba Wati mentioned that her share of biefsteuk wouldn't be necessary. I think it's interesting that even within this lunch setting, it seems that she still needs to uphold a certain separation from my grandparents, as meat is more decadent.";
+          break;
+        case 691:
+          text = "⑩ Apakah kamu melihat diri kamu selalu menyiapkan makanan untuk orang lain atau membantu orang lain dibandingkan orang lain yang memasak atau membantu kamu? ⏐ Do you see yourself always preparing food for other people or helping others rather than someone else cooking for you or helping you?";
+          break;
+        case 725:
+          text = "Yangti Gede said yes";
+          break;
+        case 730:
+          text = "Mba Wati also repeatedly said that she often helps others more than others do for her. I ask this question because the question seems a little two-fold, at least in my perspective. What is the line between selfless acts of service, and service for the sake of service?";
+          break;
+        case 737:
+          text = "Pak Amir exclaimed that he does everything for himself. ";
+          break;
+        case 744:
+          text = "I told Yangti Gede and Mba Wati to get portions of the chicken.";
+          break;
+        case 771:
+          text = "It was actually pretty diffiuclt to convince Mba Wati to accept her portion of chicken. I think she feels too guilty for getting more portions of food than everyone else, or maybe it's catching on to her that she's winning more food by showing how she's so separated.";
+          break;
+        case 842:
+          text = "⑪ Apakah kamu terasa nyaman untuk meminta bantuan? ⏐ Do you feel comfortable asking for help?";
+          break;
+        case 849:
+          text = "Mba Wati was the first person to say no, followed by Yangti Gede.";
+          break;
+        case 871:
+          text = "I asked Yangti Gede, Mba Wati, and Pak Amir to grab a portion of french fries.";
+          break;
+        case 889:
+          text = "⑫ Siapa yang pernah mencoba 5 khas makanan yang berbeda? ⏐ Who has tried more than 5 different types of cuisines?";
+          break;
+        case 910:
+          text = "Everyone else besides Yangti Kecil are able to get a cut of fish.";
+          break;
+        case 970:
+          text = "⑬ Apakah kamu mau coba hidangan baru? ⏐ Would you want to try different types of cuisine?";
+          break;
+        case 986:
+          text = "Since everyone said that they are open to trying new kinds of food, I asked everyone to get a piece of poffertjes. ";
+          break;
+        case 1089:
+          text = "⑭ Apa satu hal yang harus ada saat kalian makan dan kalian tidak bisa makan jika tidak ada hal itu? ⏐ What is one thing that you can't eat without?";
+          break;
+        case 1097:
+          text = "Yangkung and Yangti Gede immediately said sambal. This is funny because I had mentioned this in one of my annotations in my syllabus, where I had once brought them both to eat at Peter Luger, and they simply could not eat the steak without the bottle of sambal they had brought in their bags. It definitely shocked the servers.";
+          break;
+        case 1115:
+          text = "Yangti Kecil and Mba Wati both said no. I do think it's important to note here that my years of dining with both of my grandparents, it seems that Yangti Kecil is more of a 'fluid eater'.";
+          break;
+        case 1126:
+          text = "Only Yangti Kecil and Mba Wati receives one bitterbalen.";
+          break;
+        case 1160:
+          text = "⑮ Pernahkah kamu memilih untuk tidak makan demi mengalokasikan keuanganmu? ⏐ Have you ever chosen not to eat to allocate your finances? ";
+          break;
+        case 1179:
+          text = "Yangti Kecil was the first to say yes.";
+          break;
+        case 1185:
+          text = "Everyone gets a portion of chicken.";
+          break;
+        case 1338:
+          text = "⑯ Apakah anda merasa nyaman makan di warung? ⏐ Do you feel comfortable eating in a warung?";
+          break;
+        case 1342:
+          text = "Yangti Kecil was the first to say yes. The question I asked already frames a specific viewpoint of wealth that might've made others like Mba Wati and Pak Amir uncomfortable to answer immediately. I discuss more about the historical and political importance of warungs in the first essay featured in my syllabus.";
+          break;
+         case 1350:
+          text = "⑰ Apakah anda merasa nyaman makan di restoran mewah? ⏐ Do you feel comfortable eating at a fancy restaurant?";
+          break;
+        case 1355:
+          text = "Yangti Gede says she's comfortable as well. Mba Wati says she's never eaten at a fancy restaurant, so she wouldn't know. When I reframed it by asking her if someone invited her to eat at a fancy restaurant, she said she doesn't think she'd be comfortable. Whereas, Pak Amir proudly said that he'll be comfortable, because he's never eaten at one before.";
+          break;
+        case 1371:
+          text = "I asked Mba Wati to place two carrots on her plate. It was in this moment that I wish I had cooked more meat-based dishes. It seemed a bit more insulting that I was giving her vegetables rather than any sort of meat.";
+          break;
+        case 1399:
+          text = "⑱ Kapan Indonesia diakui sebagai negara yang merdeka secara resmi? ⏐ When was Indonesia  officially recognized as an independent country?";
+          break;
+        case 1410:
+          text = "This was actually a trick question. Everyone did answer our independence year correctly, which was in 1945. However, the Dutch refused to accept our claim for indpendence until 1949.";
+          break;
+        case 1444:
+          text = "⑲ Siapa yang lahir sebelum 1949? ⏐ Who was born before 1949?";
+          break;
+        case 1451:
+          text = "Yangti Kecil is the only one born before 1949, so she gets a portion of fish. I initially asked this question, hoping it'll prompt her to share some early memories she might've had during this era of change.";
+          break;
+        case 1508:
+          text = "⑳ Siapa yang sudah mempunyai cucu? ⏐ Who here has grandchildren?";
+          break;
+        case 1511:
+          text = "Everyone immediately said yes and started talking about how many grandchildren they have. I ask this question because Indonesians are very family-oriented and always very proud of how well their family is expanding.";
+          break;
+        case 1543:
+          text = "I asked Pak Amir to get a cut of steak as he has the most grandchildren! 17!";
+          break;
+        case 1575:
+          text = "㉑ Sudah berapa reformasi pemerintahan yang kalian ingat dan alami dengan jelas? ⏐ How many periods of government reformations have you lived through?";
+          break;
+        case 1582:
+          text = "Yangkung said that he's lived through two eras of reformation, and so I asked him to tell us more about his experiences.";
+          break;
+        case 1625:
+          text = "Yangkung sharing history-related stories always brings me back to my elementary and secondary school years as he was always the person I would come to when I had any questions about our government systems.";
+          break;
+        case 1652:
+          text = "㉒ Apakah kamu merasa nyaman membahas pendapat dan kekhawatiran di bidang politik? ⏐ Do you feel comfortable expressing your political opinions and concerns?";
+          break;
+        case 1691:
+          text = "Pak Amir got another piece of chicken.";
+          break;
+        case 1760:
+          text = "㉓ Ada yang tau bagaimana Bahasa Indonesia dibentuk? ⏐ Does anyone know how Bahasa Indonesia was formed?";
+          break;
+        case 1792:
+          text = "It's interesting that Mba Wati pointed out that Jakarta was once an area dominated by Betawi people, with their own language. But, she and others still don't know how Bahasa Indonesia came to exist. ";
+          break;
+        case 1803:
+          text = "I explained how Bahasa Indonesia was actually derived from the Malay language, and that most of our vocabulary are made of Dutch loanwords. We quickly needed a language that would show how unified Indonesia was at the time of our independence.";
+          break;
+        case 1873:
+          text = "㉔ Selain bahasa, apakah kamu menyadari jika masih ada kulturisasi belanda yang terbawa di negara kita? ⏐ Apart from language, are you aware that there is still evidence of Dutch culturalization in our country?";
+          break;
+        case 1892:
+          text = "Yangkung, Yangti Gede, and Yangti Kecil all said yes. I asked Yangkung to elaborate, to which he would say that his parents' generation would still speak in Dutch.";
+          break;
+        case 1971:
+          text = "㉕ Nasi Tumpeng bagi orang Belanda dikenal sebagai? ⏐ Nasi Tumpeng is known to Dutch people as?";
+          break;
+        case 1990:
+          text = "I briefly talked about the Rijsttafel here, but I explore more about this in an essay I wrote, The Cultural Ownership of the Rijsttafel. It is featured in my syllabus as well. ";
+          break;
+        case 2024:
+          text = "㉖ Frisian Flag adalah produk yang berasal dari? ⏐ Where does the product, Frisian Flag come from?";
+          break;
+        case 2042:
+          text = "Funnily enough, I gave away the answer to my own question. I wanted them to guess what other Dutch product is still heavily used in some Indonesian cuisine. Ceres or Chocolate Hagelslag are chocolate sprinkles that is often sprinkled on top of plain toast with butter or banana fritters, and other pastries.";
+          break;
+        case 2047:
+          text = "㉗ Selain Ceres atau Frisian Flag ada produk lain engga? ⏐ Are there any Dutch products besides Ceres or Frisian Flag?";
+          break;
+        case 2077:
+          text = "Yangti Gede gets a portion of fish because she answered cheese. The inclusion of dairy products in certain Indonesian meals are influenced by the Dutch.";
+          break;
+        case 2118:
+          text = "㉘ Apakah orang asing menarik perhatian kalian? Apakah kamu berpikir bahwa orang asing itu 'lebih baik' dari kita? ⏐ Do you think that foreigners are 'better' than us? Do you think they deserve more of our attention?";
+          break;
+        case 2135:
+          text = "Mba Wati was the first to say yes and everyone else followed suit. She emphasized more on their physical traits which is directly in line with what a lof of Indonesians think, which is that Eurocentric features are far more favorable and desireable. ";
+          break;
+        case 2166:
+          text = "I tried to reframe the narrative by asking if Indonesians and other foreigners are equal. Yangti Kecil stated that we are actually equal, but she thinks that we all perceive ourselves as otherwise, and perhaps it's something that's been ingrained since Indonesia was conquered. She says that if she meets a foreigner, she tends to let herself be perceived as 'less than'. ";
+          break;
+        case 2186:
+          text = "Yangti Kecil stated that we are actually equal, but she thinks that we all perceive ourselves as otherwise, and perhaps it's something that's been ingrained since Indonesia was conquered. She says that if she meets a foreigner, she tends to let herself be perceived as 'less than'. ";
+          break;
+        case 2204:
+          text = "I couldn't catch what Yangkung said here, but he mentioned a Dutch phrase. He said that it does mean that Indonesian natives do feel less than by Western foreigners. ";
+          break;
+        case 2217:
+          text = "I asked if anyone else agreed with what Yangti Kecil said, to which everyone said yes.";
+          break;
+        case 2237:
+          text = "I re-asked the same question, on whether or not they truly believe that we are all equals. I finally got everyone into some sort of agreement, but I'm not sure if that's what they truly think, because Mba Wati was still making comparisons.";
+          break;
+        case 2262:
+          text = "Regardless, I told everyone to get whatever food is left on the middle of the table to put on their own plates, as it was already the last question and they were all in agreement.";
+          break;
+        case 2273:
+          text = "As soon as everyone was ready to eat, Yangkung immediately kindly asked Mba Wati if she could get a bottle of sambal for him. It's interesting that everyone sort of reverted back to their 'assigned roles'. I wished my grandpa could ask me instead.";
+          break;
+        case 2276:
+          text = "Both my grandmas immediately laughed and we all agreed that we shouldn't mix the sambal he wanted with the Dutch food we were eating.";
+          break;
+        case 2305:
+          text = "The host joins in for lunch!";
+        case 2324:
+          text = "Yangkung funnily whispered 'sambal', so eventually everyone else besides Yangti Kecil ended up eating their food with it.";
+          break;
+
+        default:
+          text = "Sample text for timestamp " + seconds;
+      }
+
+      timestampText.innerHTML = text;
+    }
+  </script>
+
+</body>
+</html>
