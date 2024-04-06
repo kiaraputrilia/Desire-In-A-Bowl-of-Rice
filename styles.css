@@ -111,8 +111,19 @@ html {
     font-size: 6em;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #faff9d, 0 0 40px #faff9d, 0 0 50px #faff9d, 0 0 60px #faff9d, 0 0 70px #faff9d;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #FFFFA5, 0 0 40px #FFFFA5, 0 0 50px #FFFFA5, 0 0 60px #FFFFA5, 0 0 70px #FFFFA5, 0 0 80px #FFFFA5;
+    }
+  }
 
 .timestamp {
     color: yellow;
@@ -469,7 +480,7 @@ html {
     display:none;
     }
     #main-title{
-        font-size: 45px;
+        font-size: 42px;
         width: 60vw;
         line-height: 1.5;
         margin-top: -10vh;
@@ -481,6 +492,7 @@ html {
     }
 
     #notif{
+        font-size: 14px;
         margin-top: 35vh;
         margin-left: 9vw;
     }
